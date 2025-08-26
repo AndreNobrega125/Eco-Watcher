@@ -2,3 +2,45 @@ Link do site, lembrando ele está travnado no navegador!!! https://stunning-suns
 
 Arquivos que estão na composição do site em ordem: 
 
+bolt: 
+  config.json
+  prompt
+
+public: 
+  manifest.json
+  sw.js
+
+src:
+  components: 
+    DeviceCard.tsx
+    EnergyFlowDiagram.tsx
+    EnergyVisualization.tsx
+    Header.tsx
+    MobileNavigation.tsx
+    NotificationCenter.tsx
+    OfflineIndicator.tsx
+    PWAInstallPrompt.tsx
+    ResponsiveChart.tsx
+    RoomFilter.tsx
+  data: 
+    MockData.ts
+  hooks:
+    useDEvices.ts
+    usePWA.ts
+  types:
+    index.ts
+  App.tsx
+  index.css
+  main.tsx
+  vite-env.d.ts
+  .gitingnore
+  eslint.config.js
+  index.html
+  package-lock.json
+  package.json
+  postcss.config.js
+  tailwind.config.js
+  tsconfig.app.json
+  tsconifg.json
+  tsconfig.node.json
+  vite.config.ts
